@@ -70,7 +70,7 @@ This will create an EC2 instance for your Minecraft server along with the necess
 
 As mentioned, the EC2 instance will turn off automatically based on CPU usage. If no users are accessing the Minecraft server, the CPU usage will be low, causing the server to turn off. You can start it again through the AWS Web Console manually.
 
-Alternatively, I recommend creating a simple script with your favorite programming language (e.g., Python with `boto3`) to start the server automatically. Here's an example in Python:
+Alternatively, I recommend creating a simple script with your favorite programming language (e.g., Python with `boto3`) to start the server automatically.
 
 ## Cleanup
 
